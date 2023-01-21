@@ -1,0 +1,128 @@
+<html>
+<title>Learn Code</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    @font-face
+    {
+      font-family: 'poppins'; 
+      src: url('poppins/Poppins-Regular.ttf');
+    }
+   
+    h2
+    {
+      font-family: 'poppins';
+    }
+  </style>
+<link rel="stylesheet" href="w3.css">
+<body style="font-family: poppins;">
+
+<div class="w3-container w3-deep-purple w3-padding-24 w3-center">
+    <h1 class=" w3-animate-opacity" style="font-family: poppins; font-size:60px"><b>CodeWithGum</b></h1>
+    <h4 class=" w3-animate-fading" style="font-family: poppins;" >To infinity and beyond!</h4>
+</div>
+
+<div class="w3-bar w3-red ">
+    <button class="w3-bar-item w3-button" onclick="openKota('Home')">Home</button>
+    <button class="w3-bar-item w3-button" onclick="openKota('Profile')">Profile</button>
+    <button class="w3-bar-item w3-button" onclick="openKota('Codecademy')">Codecademy</button>
+    <button class="w3-bar-item w3-button" onclick="openKota('Freecodecamp')">Freecodecamp</button>
+    <button class="w3-bar-item w3-button" onclick="openKota('Kelasterbuka')">Kelas Terbuka</button>
+    <button class="w3-bar-item w3-button" onclick="openKota('wpu')">WPU</button>
+    <button class="w3-bar-item w3-button" onclick="openKota('bwa')">BWA</button>
+</div>
+
+<div class="w3-light-grey w3-padding">
+<!--home-->
+<div id="Home" class="w3-container kotak w3-animate-bottom w3-padding-24  w3-margin" style="display:block">
+    <center>
+ <table>
+<tr><td><img src="ilus.png" width="90%" class="w3-padding-24">
+ <td><h2><strong  class="w3-card w3-padding w3-deep-purple">Code Like God</strong></h2><p class="w3-padding w3-padding-24 w3-card">"CodeWithGum" is a platform with a mission to provide access to coding education at scale. Our goal is to make anyone who wants to learn code, or who has lost their way, find the resources they need-in a way that fits their schedules and personal learning styles.</p>
+</table>
+</div>
+
+<!--profil-->
+<div id="Profile" class="w3-container kotak w3-animate-zoom w3-padding-24  w3-margin" style="display:none">
+    <center>
+    <h2><strong class="w3-card w3-deep-purple w3-margin w3-padding">About Me</strong></h2>
+<table>
+    <tr><td><img src="gumilarr.png" class="w3-padding-24" width="300px">
+    <td><div class="w3-margin w3-padding">
+        <table style="font-size: 25px;">
+            <tr><td><p>Nama <td>: Gumilar Muhammad Naqib</p>
+            <tr><td><p>NIM <td>: 10122155</p>
+            <tr><td><p>Kelas <td>: IF-4</p>
+        </table>
+       </div>
+</table>   
+</div>
+
+<!--codecademy-->
+<div id="Codecademy" class="w3-container kotak w3-animate-right w3-padding-24  w3-margin" style="display:none">
+    <center>
+ <table>
+<tr><td><img src="code.png" width="90%" class="w3-padding-24">
+ <td><h2><strong  class="w3-card w3-padding w3-deep-purple">Codecademy</strong></h2><p class="w3-padding w3-card w3-padding-24">Codecademy is an American online interactive platform that offers free coding classes in 12 different programming languages including Python, Java, Go, JavaScript, Ruby, SQL, C++, C#, and Swift, as well as markup languages HTML and CSS.</p>
+<a class="w3-button w3-card w3-padding w3-center w3-red" href="https://www.codecademy.com/"><h4>Go to Codecademy</h4></a>
+</table>
+</div>
+
+<!--freecodecamp-->
+<div id="Freecodecamp" class="w3-container kotak w3-animate-right w3-padding-24  w3-margin" style="display:none">
+    <center>
+ <table>
+<tr><td><img src="freecode.png" width="90%" class="w3-padding-24">
+ <td><h2><strong  class="w3-card w3-padding w3-deep-purple">FreeCodeCamp</strong></h2><p class="w3-padding w3-card w3-padding-24">freeCodeCamp is a non-profit organization that consists of an interactive learning web platform, an online community forum, chat rooms, online publications and local organizations that intend to make learning web development accessible to anyone.</p>
+<a class="w3-button w3-card w3-padding w3-center w3-red" href="https://www.freecodecamp.org/"><h4>Go to FreeCodeCamp</h4></a>
+</table>
+</div>
+
+
+<!--kelasterbuka-->
+<div id="Kelasterbuka" class="w3-container kotak w3-animate-left w3-padding-24  w3-margin" style="display:none">
+    <center>
+ <table>
+<tr><td><img src="kelas.png" width="90%" class="w3-padding-24">
+ <td><h2><strong  class="w3-card w3-padding w3-deep-purple">Kelas Terbuka</strong></h2><p class="w3-padding w3-card w3-padding-24">Kelas Terbuka adalah channel belajar programming / pemrograman / ngoding / koding berbahasa indonesia. Channel ini membahas teknik pemrograman secara umum beserta teknologi terkait dan teknik komputasi serta pengolahan data. </p>
+<a class="w3-button w3-card w3-padding w3-center w3-red" href="https://www.youtube.com/@KelasTerbuka/featured"><h4>Go to Kelas Terbuka</h4></a>
+</table>
+</div>
+
+<!--WPU-->
+<div id="wpu" class="w3-container kotak w3-animate-left w3-padding-24  w3-margin" style="display:none">
+    <center>
+ <table>
+<tr><td><img src="wpu.png" width="90%" class="w3-padding-24">
+ <td><h2><strong  class="w3-card w3-padding w3-deep-purple">Web Programming Unpas</strong></h2><p class="w3-padding w3-card w3-padding-24">Channel khusus yang membahas mengenai teknologi internet dan pengembangan web / web development, khususnya untuk mahasiswa teknik informatika di Universitas Pasundan Bandung dan umumnya untuk siapa saja yang tertarik.</p>
+<a class="w3-button w3-card w3-padding w3-center w3-red" href="https://www.youtube.com/@sandhikagalihWPU/featured"><h4>Go to WPU</h4></a>
+</table>
+</div>
+
+<!--BWA-->
+<div id="bwa" class="w3-container kotak w3-animate-left w3-padding-24  w3-margin" style="display:none">
+    <center>
+ <table>
+<tr><td><img src="bwa.png" width="90%" class="w3-padding-24">
+ <td><h2><strong  class="w3-card w3-padding w3-deep-purple">BuildWithAngga</strong></h2><p class="w3-padding w3-card w3-padding-24">BuildWith Angga adalah tempat di mana orang-orang dapat mempelajari Android dan Website development secara online tanpa harus keluar rumah dan belajar kapan saja dengan grup konsultasi langsung dengan mentor.</p>
+<a class="w3-button w3-card w3-padding w3-center w3-red" href="https://buildwithangga.com/"><h4>Go to BWA</h4></a>
+</table>
+</div>
+
+<div class="w3-container w3-deep-purple w3-padding w3-center">
+    
+    <p class=" w3-animate-fading" style="font-family: poppins;" >Made by Gumilar Muhammad Naqib - 2023</p>
+</div>
+</div>
+<script>
+function openKota(namakota) {
+ var i;
+ var x = document.getElementsByClassName("kotak");
+ for (i = 0; i < x.length; i++) {
+ x[i].style.display = "none";
+ }
+ document.getElementById(namakota).style.display = "block";
+}
+</script
+</body>
+
+</html>
